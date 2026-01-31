@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap'); */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); */
+
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+  /* font-weight:500; */
+}
+
+/*@layer base {
+  a {
+    /* Apply base transition classes to all links 
+    @apply transition duration-300 ease-in-out;
+  }
+}*/
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #020617;
+  --text-color: #ffffff;
+}
+
+:root[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
