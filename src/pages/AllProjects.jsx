@@ -31,11 +31,9 @@ const AllProjects = () => {
 
                         {filteredProjects.map((item) => {
 
-                            // const ProjectImgs = projectImages[item.projectImg];
-
                             return (
                                 <div key={item.id} className='bg-[#0F172A] rounded-2xl drop-shadow-2xl hover:border-[#6366F1] transition ease-in-out delay-50 group cursor-pointer'>
-                                    <div className='h-45 flex items-center justify-center text-white overflow-hidden rounded-t-2xl'><img src={/*ProjectImgs && <ProjectImgs />*/ item.projectImg} className='aspect-video object-cover object-top group-hover:scale-110 transition-all ease-in delay-75' /></div>
+                                    <div className='h-45 flex items-center justify-center text-white overflow-hidden rounded-t-2xl'><img src={item.projectImg} className='aspect-video object-cover object-top group-hover:scale-110 transition-all ease-in delay-75' /></div>
                                     <div className='bg-[#020617] p-8 rounded-b-2xl group'>
                                         <Link to={`/projects/${item.id}`} className='text-xl font-semibold text-white pb-3 hover:text-[#6366F1] transition-all ease-in delay-75'>{item.projectHeading}</Link>
                                         <p className='text-sm text-white/40'>{item.projectDesc}</p>

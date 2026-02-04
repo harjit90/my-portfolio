@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
 import { FaAngleLeft } from "react-icons/fa6";
 import { useMyThemeContext } from "../context/ThemeContext"
-import Button from "../components/Button";
 import ImageViewerModal from "../components/ImageViewerModal";
 
 const ProjectDetail = () => {

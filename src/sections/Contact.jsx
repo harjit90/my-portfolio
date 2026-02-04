@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <>
-      <div id='contact' className='py-25 max-sm:py-15' /* style={{ backgroundColor: theme && '#ffffff' }} */>
+      <div id='contact' className='py-25 max-sm:py-15'>
         <Layout>
           <Heading subHeading='Get In Touch' mainHeading='Lets Work Together' headingDescription='Have a project in mind? Lets discuss how I can help bring your ideas into life' style={{ textAlign: 'center' }} />
           <div className='grid grid-cols-3 max-sm:grid-cols-1 pt-12 gap-6'>

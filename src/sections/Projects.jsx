@@ -5,6 +5,7 @@ import { useMyThemeContext } from "../context/ThemeContext"
 import { Link } from 'react-router-dom'
 import ProjectCategories from '../components/ProjectCategories'
 import { useState } from 'react'
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Projects = () => {
 
@@ -48,8 +49,8 @@ const Projects = () => {
                             )
                         })}
                     </div>
-                    <div className='text-center pt-12'>
-                        <Link to='/projects' className='py-4 px-8 border-2 border-[#6366F1] rounded-md cursor-pointer hover:bg-[#6366F1] hover:text-white transition ease-in-out delay-50'>View All Projects</Link>
+                    <div className='text-center pt-12 flex flex-row items-center justify-center'>
+                        <Link to='/projects' className='py-4 px-8 border-2 border-[#6366F1] rounded-md cursor-pointer hover:bg-[#6366F1] hover:text-white transition ease-in-out delay-50 flex flex-row group'>View All Projects <span className="ps-2 text-2xl group-hover:translate-x-1 transition-all ease-in delay-30"><IoIosArrowRoundForward /></span></Link>
                     </div>
                 </Layout>
             </div>

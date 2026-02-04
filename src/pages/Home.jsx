@@ -7,31 +7,39 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 
-const Home = () => {
+const Home = ({ refs }) => {
 
     const location = useLocation();
 
-    useEffect(() => {
-        if (location.hash) {
-            const sectionId = location.hash.replace("#", "");
-            const element = document.getElementById(sectionId);
+    // useEffect(() => {
+    //     if (location.hash) {
+    //         const sectionId = location.hash.replace("#", "");
+    //         const element = document.getElementById(sectionId);
 
-            if (element) {
-                // Small delay ensures DOM is fully rendered
-                setTimeout(() => {
-                    element.scrollIntoView({ behavior: "smooth" });
-                }, 100);
-            }
+    //         if (element) {
+    //             setTimeout(() => {
+    //                 element.scrollIntoView({ behavior: "smooth" });
+    //             }, 100);
+    //         }
+    //     }
+    // }, [location]);
+
+    useEffect(() => {
+        const section = location.state?.scrollTo;
+
+        if (section && refs[section]?.current) {
+            refs[section].current.scrollIntoView({ behavior: "smooth" });
         }
-    }, [location]);
+    }, [location, refs]);
+
 
     return (
         <>
-            <section id="hero"><Hero /></section>
-            <section id="about"><About /></section>
-            <section id="skills"><Skills /></section>
-            <section id="projects"><Projects /></section>
-            <section id="contact"><Contact /></section>
+            <section ref={refs.hero} id="hero"><Hero /></section>
+            <section ref={refs.about} id="about"><About /></section>
+            <section ref={refs.skills} id="skills"><Skills /></section>
+            <section ref={refs.projects} id="skills"><Projects /></section>
+            <section ref={refs.contact} id="contact"><Contact /></section>
         </>
     )
 }

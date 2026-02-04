@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <>
-      <div id='skills' className='py-25 max-sm:py-15' /* style={{ backgroundColor: theme && '#ffffff' }} */>
+      <div id='skills' className='py-25 max-sm:py-15'>
         <Layout>
           <Heading subHeading='My Expertise' mainHeading='Skills & Technologies' headingDescription='A comprehensive toolkit of modern technologies and frameworks' style={{ textAlign: 'center' }} />
           <div className='grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 pt-12 gap-6'>
