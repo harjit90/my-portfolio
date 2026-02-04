@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className='container-fluid mx-auto px-5 sticky top-0 z-20 backdrop-blur-xl py-4' /*style={{ backgroundColor: theme && '#ffffff' }}*/>
         <div className='grid grid-cols-12 justify-between items-center font-medium  text-sm uppercase'>
 
-          <div className="col-span-3 max-lg:col-span-2"><a href='#' className='text-4xl font-black text-[#6366F1]'>HK</a></div>
+          <div className="col-span-3 max-lg:col-span-2"><a href='/' className='text-4xl font-black text-[#6366F1]'>HK</a></div>
 
           <ul className={`col-span-6 max-lg:col-span-8 flex flex-row justify-center gap-7 ${!sideBarOpen ? 'max-md:w-0 overflow-hidden' : 'max-md:w-60 max-md:pl-10'} max-md:fixed top-0 bottom-0 right-0 max-md:min-h-screen max-md:h-full max-md:flex-col max-md:bg-[#6366F1] max-md:text-white max-md:pt-20 md:items-center transition-all`} /*style={{ color: theme && '#111111' }}*/>
 

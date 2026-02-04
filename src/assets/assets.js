@@ -5,6 +5,7 @@ import projectImg3 from '../assets/wd-3.webp'
 import projectImg4 from '../assets/wd-4.webp'
 import projectImg5 from '../assets/wd-5.webp'
 import projectImg6 from '../assets/wd-6.webp'
+import projectImg7 from '../assets/wd-7.webp'
 import projectImg11 from '../assets/wd-11.webp'
 import projectImg12 from '../assets/wd-12.webp'
 import projectImg13 from '../assets/wd-13.webp'
@@ -71,6 +72,7 @@ export const projectImages = {
     project4: projectImg4,
     project5: projectImg5,
     project6: projectImg6,
+    project7: projectImg7,
     project11: projectImg11,
     project12: projectImg12,
     project13: projectImg13,
