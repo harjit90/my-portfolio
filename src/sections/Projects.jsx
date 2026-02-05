@@ -36,7 +36,7 @@ const Projects = () => {
                                     </div>
                                     <div className='bg-[#020617] p-8 rounded-b-2xl group'>
                                         <Link to={`/projects/${project.id}`} className='text-xl font-semibold text-white pb-3 hover:text-[#6366F1] transition-all ease-in delay-75'>{project.projectHeading}</Link>
-                                        <p className='text-sm text-white/40'>{project.projectDesc}</p>
+                                        <p className='text-sm text-white/40 line-clamp-4'>{project.projectDesc}</p>
                                         <ul className='pt-5'>
                                             {project.technologies.map((tech, index) => {
                                                 return (

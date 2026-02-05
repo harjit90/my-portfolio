@@ -5,7 +5,7 @@ export const projectDetails = [
         id: 1,
         projectImg: projectImages.project1,
         projectHeading: "Employee Management",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "Built a React-based Employee Management System with full CRUD functionality, including employee highlighting and save/show features on a separate page. Implemented efficient state management using Redux Toolkit, handled data operations with Axios and Mock API, and enabled smooth navigation via React Router DOM with a fully responsive UI styled using Tailwind CSS.",
         technologies: [
             "React js",
             "Redux Toolkit",
@@ -20,7 +20,7 @@ export const projectDetails = [
         id: 2,
         projectImg: projectImages.project2,
         projectHeading: "Gadget Kart",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "Built a responsive e-commerce web app using React JS with a clean, component-based architecture, implementing seamless navigation via React Router DOM using useLocation and useParams. Efficiently managed global state with the Context API and hooks like useState and useEffect, while rendering dynamic product data using props and map(), and enhancing the UI with React Icons and Tailwind CSS.",
         technologies: [
             "React js",
             "React Hooks",
@@ -35,7 +35,7 @@ export const projectDetails = [
         id: 3,
         projectImg: projectImages.project3,
         projectHeading: "My Portfolio",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "A responsive, modern portfolio website built in React to showcase my skills, projects, and contact information. Designed for performance and accessibility with responsive layouts that adapt from mobile to desktop. Integrated with GitHub for live project exploration. Highlights core frontend capabilities: component structure, CSS styling, and responsive design.",
         technologies: [
             "React js",
             "Context API",
@@ -49,7 +49,7 @@ export const projectDetails = [
         id: 4,
         projectImg: projectImages.project4,
         projectHeading: "Quiz App",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "Developed an interactive Quiz Application using React JS with a component-driven approach, managing quiz flow, score, and state using useState and useEffect. Implemented countdown timers with setInterval and clearInterval, formatted time using Math.floor(), toString(), and .padStart(), and leveraged conditional rendering and props for dynamic UI updates, styled with Tailwind CSS and React Icons.",
         technologies: [
             "React js",
             "React Hooks",
@@ -64,7 +64,7 @@ export const projectDetails = [
         id: 5,
         projectImg: projectImages.project5,
         projectHeading: "Trippy",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "Developed a responsive travel-themed web application using React JS with a clean, component-based architecture. Implemented smooth navigation using react-router-dom with BrowserRouter, Routes, Route, and Link. Managed UI state using useState, rendered dynamic data with props and map(), applied conditional rendering, and styled the application using Bootstrap for a modern, responsive layout.",
         technologies: [
             "React js",
             "React Router DOM",
@@ -78,7 +78,7 @@ export const projectDetails = [
         id: 6,
         projectImg: projectImages.project6,
         projectHeading: "Marketify",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "Developed a responsive e-commerce web application using React JS with a scalable, component-based architecture. Implemented seamless navigation with react-router-dom using BrowserRouter, Routes, Route, NavLink, Link, and Navigate. Managed UI and form state with useState and controlled components, rendered dynamic data via props and map(), applied conditional rendering, and styled the app using Bootstrap for a clean, responsive UI.",
         technologies: [
             "React js",
             "React Hooks",
@@ -92,7 +92,7 @@ export const projectDetails = [
         id: 7,
         projectImg: projectImages.project7,
         projectHeading: "Tourism Hub",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectDesc: "Developed a responsive tourism web application using React JS with a clean, component-based architecture. Implemented modern routing with react-router-dom using createBrowserRouter, RouterProvider, Navigate, NavLink, and Link. Managed UI state with useState, rendered dynamic content using props and map(), applied conditional rendering, and styled the interface with Bootstrap 5.3.8 for a smooth, responsive user experience.",
         technologies: [
             "React",
             "React Router DOM",
@@ -105,8 +105,8 @@ export const projectDetails = [
     {
         id: 8,
         projectImg: projectImages.project1,
-        projectHeading: "Project Title",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectHeading: "Employee Management",
+        projectDesc: "Built a React-based Employee Management System with full CRUD functionality, including employee highlighting and save/show features on a separate page. Implemented efficient state management using Redux Toolkit, handled data operations with Axios and Mock API, and enabled smooth navigation via React Router DOM with a fully responsive UI styled using Tailwind CSS.",
         technologies: [
             "React",
             "Node.js",
@@ -119,8 +119,8 @@ export const projectDetails = [
     {
         id: 9,
         projectImg: projectImages.project2,
-        projectHeading: "Project Title",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectHeading: "Gadget Kart",
+        projectDesc: "Built a responsive e-commerce web app using React JS with a clean, component-based architecture, implementing seamless navigation via React Router DOM using useLocation and useParams. Efficiently managed global state with the Context API and hooks like useState and useEffect, while rendering dynamic product data using props and map(), and enhancing the UI with React Icons and Tailwind CSS.",
         technologies: [
             "React",
             "Node.js",
@@ -133,8 +133,8 @@ export const projectDetails = [
     {
         id: 10,
         projectImg: projectImages.project3,
-        projectHeading: "Project Title",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectHeading: "My Portfolio",
+        projectDesc: "A responsive, modern portfolio website built in React to showcase my skills, projects, and contact information. Designed for performance and accessibility with responsive layouts that adapt from mobile to desktop. Integrated with GitHub for live project exploration. Highlights core frontend capabilities: component structure, CSS styling, and responsive design.",
         technologies: [
             "React",
             "Node.js",
@@ -147,8 +147,8 @@ export const projectDetails = [
     {
         id: 11,
         projectImg: projectImages.project4,
-        projectHeading: "Project Title",
-        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        projectHeading: "Quiz App",
+        projectDesc: "Developed an interactive Quiz Application using React JS with a component-driven approach, managing quiz flow, score, and state using useState and useEffect. Implemented countdown timers with setInterval and clearInterval, formatted time using Math.floor(), toString(), and .padStart(), and leveraged conditional rendering and props for dynamic UI updates, styled with Tailwind CSS and React Icons.",
         technologies: [
             "React",
             "Node.js",
