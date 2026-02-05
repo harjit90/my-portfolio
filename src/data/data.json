@@ -6,28 +6,52 @@
             "skillHeading": "Frontend Development",
             "skillDescription": "Building responsive and interactive user interfaces",
             "skills": [
-                "React",
-                "Vue.js",
-                "Typescript",
-                "Tailwind",
+                "React js",
+                "Javascript",
+                "ES6",
+                "jQuery",
                 "Next.js"
             ]
         },
         {
             "id": 2,
-            "skillIcon": "FaHardDrive",
-            "skillHeading": "Backend Development",
-            "skillDescription": "Creating robust and scalable server-side solutions",
+            "skillIcon": "FaReact",
+            "skillHeading": "React Ecosystem",
+            "skillDescription": "Modern React development with scalable architecture",
             "skills": [
-                "Node.js",
-                "Python",
-                "MongoDB",
-                "PostgreSQL",
-                "REST API"
+                "React Hooks",
+                "React Router",
+                "Redux Toolkit",
+                "Context API"
             ]
         },
         {
             "id": 3,
+            "skillIcon": "FaLayerGroup",
+            "skillHeading": "Styling & Responsive",
+            "skillDescription": "Pixel-perfect layouts with modern CSS frameworks",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Material UI",
+                "Bootstrap"
+            ]
+        },
+        {
+            "id": 4,
+            "skillIcon": "FaTools",
+            "skillHeading": "Tools & Deployment",
+            "skillDescription": "Version control, APIs, and deployment workflows",
+            "skills": [
+                "REST APIs",
+                "Axios & Fetch",
+                "Git & GitHub",
+                "Vercel Deploy"
+            ]
+        },
+        {
+            "id": 5,
             "skillIcon": "FaPalette",
             "skillHeading": "UI/UX Design",
             "skillDescription": "Designing beautiful and intuitive user experiences",
@@ -40,41 +64,16 @@
             ]
         },
         {
-            "id": 4,
-            "skillIcon": "FaMobileAlt",
-            "skillHeading": "Mobile Development",
-            "skillDescription": "Cross-platform mobile application development",
-            "skills": [
-                "React Native",
-                "Flutter",
-                "iOS",
-                "Android"
-            ]
-        },
-        {
-            "id": 5,
-            "skillIcon": "FaCloud",
-            "skillHeading": "Cloud & DevOps",
-            "skillDescription": "Deployment and infrastructure management",
-            "skills": [
-                "AWS",
-                "Docker",
-                "Kubernetes",
-                "CI/CD",
-                "Git"
-            ]
-        },
-        {
             "id": 6,
-            "skillIcon": "FaDatabase",
-            "skillHeading": "Database Management",
-            "skillDescription": "Data modeling and optimization expertise",
+            "skillIcon": "FaPaintBrush",
+            "skillHeading": "Graphic Design",
+            "skillDescription": "Creative visual designs for digital and print media",
             "skills": [
-                "MySQL",
-                "Redis",
-                "Firebase",
-                "GraphQL"
+                "Photoshop",
+                "Illustrator",
+                "Corel Draw",
+                "Banner / Logo"
             ]
         }
-    ] 
+    ]
 }

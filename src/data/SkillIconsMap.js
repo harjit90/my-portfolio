@@ -1,11 +1,11 @@
-import { FaMobileAlt, FaCloud, FaDatabase, FaCode, FaPalette } from "react-icons/fa";
+import { FaCode, FaReact, FaLayerGroup, FaTools, FaPalette, FaPaintBrush } from "react-icons/fa";
 import { FaHardDrive } from "react-icons/fa6";
 
 export const SkillIconsMap = {
     FaCode: FaCode,
-    FaHardDrive: FaHardDrive,
+    FaReact: FaReact,
+    FaLayerGroup: FaLayerGroup,
+    FaTools: FaTools,
     FaPalette: FaPalette,
-    FaMobileAlt: FaMobileAlt,
-    FaCloud: FaCloud,
-    FaDatabase: FaDatabase,
+    FaPaintBrush: FaPaintBrush,
 };

@@ -43,7 +43,7 @@ export const projectDetails = [
             "React Router Dom"
         ],
         category: 'Frontend Development',
-        liveUrl: ""
+        liveUrl: "https://my-portfolio-sepia-iota.vercel.app/"
     },
     {
         id: 4,
